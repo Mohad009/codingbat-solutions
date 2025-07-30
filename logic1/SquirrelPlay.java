@@ -1,0 +1,10 @@
+public class SquirrelPlay {
+    public static boolean squirrelPlay(int temp, boolean isSummer) {
+  if(isSummer && temp>=60 && temp<=100) return true;
+  else if(temp>=60 && temp<=90) return true;
+  return false;
+}
+public static void main(String[] args) {
+    System.out.println(SquirrelPlay.squirrelPlay(90, true));
+}
+}
